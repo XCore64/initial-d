@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Site 05 | Slideshow</title>
+	</head>
+	<body>
+		<script language="javascript">
+			function slideChange1() {
+				var im2 = document.getElementById("imgslide");
+				im2.src = "img/550-1.jpg";
+			}
+			
+			function slideChange2() {
+				var image = document.getElementById("imgslide");
+				image.src = "img/550-2.jpg";
+			}
+			
+			function slideChange3() {
+				var image = document.getElementById("imgslide");
+				image.src = "img/550-3.jpg";
+			}
+			
+			function slideChange4() {
+				var image = document.getElementById("imgslide");
+				image.src = "img/550-4.jpg";
+			}
+			
+			function slideChange5() {
+				var image = document.getElementById("imgslide");
+				image.src = "img/550-5.jpg";
+			}
+			
+			function slideChangeAll(num) {
+				var slide = document.getElementById("imgslide");
+				slide.src = "img/550-"+num+".jpg";
+			}
+			</script>
+	
+		<img src="img/550-1.jpg" id="imgslide">
+		
+		<br>
+		
+		<button onClick= "slideChangeA(1)">Slide 01</button>
+		<button onClick= "slideChangeAll(2)">Slide 02</button>
+		<button onClick= "slideChangeAll(3)">Slide 03</button>
+		<button onClick= "slideChangeAll(4)">Slide 04</button>
+		<button onClick= "slideChangeAll(5)">Slide 05</button>
+	</body>
+</html>
