@@ -1,2 +1,2 @@
-# cis3610-site05
+# Initial D
 JavaScript Slideshow (button)
